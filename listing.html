@@ -1,0 +1,204 @@
+<html>
+    <head>
+        <title>Home Page</title>
+        <link href="listing.css" rel="stylesheet" type="text/css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    </head>
+    <body>
+        <header>
+            <div id="brand">
+                <a href="../homepage/home.html">Developer Funnel</a>
+            </div>
+            <div id="social">
+                <a href="www.facebook.com">
+                    <img src="https://i.ibb.co/wrG1PKh/facebook.png" alt="fb" class="socialLogo"/>
+                </a>
+                <a href="www.facebook.com">
+                    <img src="https://i.ibb.co/19H5LvT/insta.png" alt="fb" class="socialLogo"/>
+                </a>
+                <a href="www.facebook.com">
+                    <img src="https://i.ibb.co/w07K2Vn/youtube1.png" alt="fb" class="socialLogo"/>
+                </a>
+            </div>
+        </header>
+        
+        <div id="content">
+           <h1 class="mb-3 text-color">Breackfast Places in Mumbai</h1>
+           <div id="filterDiv">
+                <h5 class="left-margin">Filters</h5>
+                <br>
+                <h6 class="left-margin">Select Location</h6>
+                <select class="form-select select-width left-margin" id="inputGroupSelect01">
+                    <option selected>Select Location</option>
+                    <option value="1">Mumbai</option>
+                    <option value="2">Pune</option>
+                    <option value="3">Nagpur</option>
+                </select>
+                <br>
+                <div class="menu-cuisine">
+                    <h6 class="left-margin"> Cuisine</h6>
+                    <div class="input-group mb-3 left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="Checkbox for following text input">North Indian
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="Checkbox for following text input">South Indian
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Chinese
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Fast Food
+                        </div>
+                    </div>
+                    <div class="input-group mb-3 left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="checkbox" value="" aria-label="Checkbox for following text input">Street Food
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="cost">
+                    <h6 class="left-margin">Cost For Two</h6>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">less than `500
+                        </div>
+                    </div>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">`500 to `1000
+                        </div>
+                    </div>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">`1000 to `1500
+                        </div>
+                    </div>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">`1500 to `2000
+                        </div>
+                    </div>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">`2000+
+                        </div>
+                    </div>
+                </div>
+                <div class="price">
+                    <h6 class="left-margin">Sort</h6>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">Price low to high
+                        </div>
+                    </div>
+                    <div class="input-group left-margin">
+                        <div class="input-group-text">
+                          <input class="form-check-input me-2" type="radio" value="" aria-label="Radio button for following text input">Price high to low 
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="contentDiv">
+                <div class="box-1">
+                    <div class="container box-2-display card mb-3">
+                        <div class="row ">
+                          <div class="col-md-4">
+                            <img src="images/food-tile.png" class="img-fluid rounded" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-color">The Big Chill Cakery</h5>
+                              <p class="card-text text-color">FORT</p>
+                              <p class="card-text"><small class="text-muted">Shop 1,Plot D,Samruddhi Complex,Chincholi..</small></p>
+                            </div>
+                          </div>
+                          <div class="col-4 mt-2">
+                            <h6>CUISINE:</h6>
+                            <h6>COST FOR TWO:</h6>
+                          </div>
+                          <div class="col-8 mt-2">
+                            <p>Bakery</p>
+                            <p>&#x20B9 700</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="box-2">
+                    <div class="container box-2-display card mb-3">
+                        <div class="row ">
+                          <div class="col-md-4">
+                            <img src="images/food-tile.png" class="img-fluid rounded" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-color">The Big Chill Cakery</h5>
+                              <p class="card-text text-color">FORT</p>
+                              <p class="card-text"><small class="text-muted">Shop 1,Plot D,Samruddhi Complex,Chincholi..</small></p>
+                            </div>
+                          </div>
+                          <div class="col-4 mt-2">
+                            <h6>CUISINE:</h6>
+                            <h6>COST FOR TWO:</h6>
+                          </div>
+                          <div class="col-8 mt-2">
+                            <p>Bakery</p>
+                            <p>&#x20B9 700</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+               
+                <div class="box-3">
+                    <div class="container box-2-display card mb-3">
+                        <div class="row ">
+                          <div class="col-md-4">
+                            <img src="images/food-tile.png" class="img-fluid rounded" alt="...">
+                          </div>
+                          <div class="col-md-8">
+                            <div class="card-body">
+                              <h5 class="card-title text-color">The Big Chill Cakery</h5>
+                              <p class="card-text text-color">FORT</p>
+                              <p class="card-text"><small class="text-muted">Shop 1,Plot D,Samruddhi Complex,Chincholi..</small></p>
+                            </div>
+                          </div>
+                          <div class="col-4 mt-2">
+                            <h6>CUISINE:</h6>
+                            <h6>COST FOR TWO:</h6>
+                          </div>
+                          <div class="col-8 mt-2">
+                            <p>Bakery</p>
+                            <p>&#x20B9 700</p>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>&copy; Developer Funnel</p>
+            <hr/>
+            <div class="footDiv">
+                <p>Contact Us</p>
+                <p>About Us</p>
+            </div>
+            <div class="footDiv">
+                <p>Contact Us</p>
+                <p>About Us</p>
+            </div>
+            <div class="footDiv noborder">
+                <p>Contact Us</p>
+                <p>About Us</p>
+            </div>
+        </footer>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    </body>
+</html>
